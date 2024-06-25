@@ -1,4 +1,4 @@
-name: on pull request opened
+name: On pull Request Opened
 
 on:
   pull_request:
