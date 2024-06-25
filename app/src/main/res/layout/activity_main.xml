@@ -72,9 +72,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="242dp"
-        android:layout_marginRight="242dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="243dp"
+        android:layout_marginRight="243dp"
+        android:layout_marginBottom="18dp"
         android:src="@drawable/camera" />
 
     <ImageView
@@ -83,9 +83,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="182dp"
-        android:layout_marginRight="182dp"
-        android:layout_marginBottom="31dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginRight="177dp"
+        android:layout_marginBottom="19dp"
         android:src="@drawable/chat" />
 
     <ImageView
@@ -95,9 +95,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="122dp"
-        android:layout_marginRight="122dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginRight="119dp"
+        android:layout_marginBottom="18dp"
         android:src="@drawable/sett" />
 
 
