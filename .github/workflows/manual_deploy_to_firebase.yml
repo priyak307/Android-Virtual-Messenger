@@ -63,10 +63,3 @@ jobs:
           groups: testers
           file: app/build/outputs/apk/debug/app-debug.apk
           releaseNotes: ${{inputs.release_notes}}
-
-      - uses: chrnorm/deployment-action@v2
-        name: Create GitHub deployment
-        id: deployment
-        with:
-          token: '${{ TOKEN_GITHUB }}'
-          environment: production
