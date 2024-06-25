@@ -64,9 +64,9 @@ jobs:
           file: app/build/outputs/apk/debug/app-debug.apk
           releaseNotes: ${{inputs.release_notes}}
 
-      - name: Create GitHub Deployment
-        uses: peter-evans/create-or-update-comment@v1
+      - uses: chrnorm/deployment-action@v2
+        name: Create GitHub deployment
+        id: deployment
         with:
-          token: ${{ secrets.TOKEN_GITHUB }}
-          deployment: true
-          deployment-environment: production
+          token: '${{ TOKEN_GITHUB }}'
+          environment: production
