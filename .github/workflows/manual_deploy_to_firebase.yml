@@ -4,19 +4,19 @@ name: Deploy to Firebase
 
 # Controls when the workflow will run
 on:
-    # Triggers the workflow on push or pull request events but only for the "master" branch
-    push:
-      branches: [ "master" ]
-    pull_request:
-      branches: [ "master" ]
+#    # Triggers the workflow on push or pull request events but only for the "master" branch
+#    push:
+#      branches: [ "master" ]
+#    pull_request:
+#      branches: [ "master" ]
 
-#  workflow_dispatch:
-#    inputs:
-#      release_notes:
-#        type: string
-#        required: true
-#        default: 'Manual Debug Build'
-#        description: 'Release Notes'
+  workflow_dispatch:
+    inputs:
+      release_notes:
+        type: string
+        required: true
+        default: 'Manual Debug Build'
+        description: 'Release Notes'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
