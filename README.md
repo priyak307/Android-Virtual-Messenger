@@ -22,8 +22,11 @@ Welcome to Chat4U, an Android Virtual Messenger app developed using Java and Fir
 - **Efficient Message Handling**: Smooth and efficient message sending and receiving.
 - **Seamless Image Loading**: Using Picasso for image loading.
 
-## Preview
-Add some screenshots to showcase the app's interface and features.
-![Screenshot 1](https://github.com/your-username/Chat4U/blob/main/images/screenshot1.png)
-![Screenshot 2](https://github.com/your-username/Chat4U/blob/main/images/screenshot2.png)
-![Screenshot 3](https://github.com/your-username/Chat4U/blob/main/images/screenshot3.png)
+## Preview Video
+Here is a preview video showcasing the main features of Chat4U:
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=your-video-id" target="_blank">
+    <img src="https://img.youtube.com/vi/your-video-id/0.jpg" alt="Chat4U Preview Video"/>
+  </a>
+</p>
