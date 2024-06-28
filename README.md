@@ -7,13 +7,10 @@ Welcome to Chat4U, an Android Virtual Messenger app developed using Java and Fir
 
 ## Table of Contents
 1. [Features](#features)
-2. [Preview](#Preview)
+2. [Preview](#preview)
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Technologies Used](#technologies-used)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
 
 ## Features
 - **User Authentication**: Secure authentication with Firebase.
@@ -22,11 +19,31 @@ Welcome to Chat4U, an Android Virtual Messenger app developed using Java and Fir
 - **Efficient Message Handling**: Smooth and efficient message sending and receiving.
 - **Seamless Image Loading**: Using Picasso for image loading.
 
-## Preview Video
-Here is a preview video showcasing the main features of Chat4U:
-
+## Preview
+Here is a preview video showcasing the main features of Chat4U,
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=your-video-id" target="_blank">
-    <img src="https://img.youtube.com/vi/your-video-id/0.jpg" alt="Chat4U Preview Video"/>
-  </a>
+  <img src="https://github.com/priyak307/Android-Virtual-Messenger/blob/master/images/preview.gif" alt="Screenshot 1" width="200"/>
 </p>
+
+## Installation
+Follow these steps to set up the project locally.
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/priyak307/Android-Virtual-Messenger.git
+    cd Chat4U
+    ```
+2. **Open the project in Android Studio**
+3. **Configure Firebase**
+   - Create a Firebase project.
+   - Add the `google-services.json` file to the `app` directory.
+4. **Build and run the app**
+
+## Usage
+1. **Sign Up/Log In**: Create a new account or log in with an existing account.
+2. **Start Chatting**: Send and receive messages in real time.
+3. **Customize Profile**: Upload a profile picture for personalization.
+
+## Technologies Used
+- **Java**: Programming language used for Android development.
+- **Firebase**: Backend services for user authentication and real-time database.
+- **Picasso**: Library for image downloading and caching.
