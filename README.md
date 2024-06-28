@@ -30,7 +30,7 @@ Follow these steps to set up the project locally.
 1. **Clone the repository**
     ```bash
     git clone https://github.com/priyak307/Android-Virtual-Messenger.git
-    cd Chat4U
+    cd AVMessenger
     ```
 2. **Open the project in Android Studio**
 3. **Configure Firebase**
